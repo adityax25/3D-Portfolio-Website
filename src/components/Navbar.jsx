@@ -15,11 +15,11 @@ const Navbar = () => {
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
-            setActive("");
-            window.scroll(0,0);
+            setActive('');
+            window.scrollTo(0,0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain"/>
+          <img src={logo} alt="logo" className="w-6 h-6 object-contain"/>
         </Link>
       </div>
     </nav>
